@@ -1,0 +1,61 @@
+/* ================================================
+   LEGAL PAGE - Página de aviso legal
+   ================================================ */
+
+.legal-page-content {
+    background: white;
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: var(--shadow-md);
+    margin: 2rem 0;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.legal-section {
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.legal-section:last-of-type {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.legal-section h2 {
+    font-size: 1.75rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.legal-section p {
+    color: var(--text-light);
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+.legal-section ul {
+    margin-left: 2rem;
+    color: var(--text-light);
+    list-style: disc;
+}
+
+.legal-section li {
+    margin: 0.5rem 0;
+    line-height: 1.8;
+}
+
+.legal-section strong {
+    color: var(--text-dark);
+}
+
+.legal-update-footer {
+    text-align: center;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    border-top: 2px solid var(--border-color);
+    color: var(--text-light);
+    font-style: italic;
+}

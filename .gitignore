@@ -1,0 +1,167 @@
+# Dependencias
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Variables de entorno
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+config/production.json
+config/development.json
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage y testing
+coverage/
+.nyc_output/
+*.lcov
+.jest/
+
+# Build y distribución
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+
+# Archivos temporales
+tmp/
+temp/
+*.tmp
+
+# Base de datos local
+*.sqlite
+*.sqlite3
+*.db
+
+# Backups
+backup/
+*.backup
+*.bak
+
+# Archivos comprimidos
+*.zip
+*.tar.gz
+*.rar
+
+# Certificados y claves
+*.pem
+*.key
+*.cert
+
+# Sistema de archivos
+.Spotlight-V100
+.Trashes
+
+# Archivos específicos del proyecto
+uploads/
+private/
+secrets/
+
+# Cache de npm
+.npm
+
+# Cache de eslint
+.eslintcache
+
+# Cache de stylelint
+.stylelintcache
+
+# Parcel cache
+.parcel-cache
+
+# Next.js
+.next/
+out/
+
+# Gatsby
+.cache/
+public/
+
+# Serverless
+.serverless/
+
+# FuseBox
+.fusebox/
+
+# DynamoDB Local
+.dynamodb/
+
+# Webpack
+.webpack/
+
+# Vuepress
+.vuepress/dist
+
+# Docusaurus
+.docusaurus
+build
+
+# Sapper
+__sapper__/
+
+# MacOS
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root
+.DocumentRevisions-V100
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# Archivos de error
+error.log
+combined.log
+
+# Archivos de prueba
+test-results/
+playwright-report/

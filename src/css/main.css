@@ -1,0 +1,28 @@
+/* ================================================
+   SJWEBSTUDIO - ESTILOS PRINCIPALES (MODULAR)
+   Archivo principal que importa todos los módulos CSS
+   Versión: 1.1.0
+   ================================================ */
+
+/* ========== BASE ========== */
+@import 'base/reset.css';
+@import 'base/variables.css';
+@import 'base/typography.css';
+
+/* ========== COMPONENTS ========== */
+@import 'components/navbar.css';
+@import 'components/buttons.css';
+@import 'components/cards.css';
+@import 'components/forms.css';
+@import 'components/footer.css';
+@import 'components/modals.css';
+
+/* ========== PAGES ========== */
+@import 'pages/home.css';
+@import 'pages/products.css';
+@import 'pages/contact.css';
+@import 'pages/legal.css';
+
+/* ========== UTILS ========== */
+@import 'utils/animations.css';
+@import 'utils/responsive.css';
