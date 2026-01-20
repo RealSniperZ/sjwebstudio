@@ -23,6 +23,7 @@
 .company-intro h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
+    color: white;
 }
 
 .company-intro p {
@@ -30,6 +31,7 @@
     line-height: 1.7;
     opacity: 0.95;
     margin-bottom: 2rem;
+    color: white;
 }
 
 .stats-row {
